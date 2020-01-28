@@ -45,6 +45,7 @@ table{border-collapse:collapse;border-spacing:0}
 .sp{display:inline-block;overflow:hidden;background:url(../img/sp_common.png) no-repeat;line-height:9999px;vertical-align:top}
 
 /* main */
+.wrap{min-width:1020px}
 .content{margin-bottom:50px}
 .cont_inner{position:relative;margin:0 auto;width:1110px;height:100%}
 
@@ -59,7 +60,7 @@ table{border-collapse:collapse;border-spacing:0}
 .menu_link{display:block;padding:22px 15px;font-size:18px;color:#fff}
 .menu_link:hover{color:#f7695f;background:#fff;border-radius:5px}
 .profile_bx{position:absolute;left:50%;top:75px;margin-left:-160px}
-.profile_img{display:inline-block;width:320px;height:320px;border-radius:50%;background:pink;vertical-align:top;box-sizing:border-box}
+.profile_img{display:inline-block;width:320px;height:320px;border-radius:50%;background:url(../img/visual_img.jpg) no-repeat;background-size:cover;vertical-align:top;box-sizing:border-box}
 
 /* content */
 .sec{padding-top:40px}
