@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* KO YEONJU */
+
+@font-face {
+font-family:'NanumBarunGothic';
+src:url(fonts/NanumBarunGothic.eot);/* IE9 Compat Modes */
+src:url(fonts/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),/* IE6-IE8 */
+	url(fonts/NanumBarunGothic.woff) format('woff'),/* Modern Browsers */
+	url(fonts/NanumBarunGothic.ttf) format('truetype');/* Safari, Android, iOS */
+}
+
+@font-face {
+font-family:'NanumBarunGothic';
+font-weight:bold;
+src:url(fonts/NanumBarunGothicBold.eot);
+src:url(fonts/NanumBarunGothicBold.eot?#iefix) format('embedded-opentype'), 
+	url(fonts/NanumBarunGothicBold.woff) format('woff'),
+	url(fonts/NanumBarunGothicBold.ttf) format('truetype');
+}
+
+/* skip */
+.skip{height:0}
+.skip a{display:block;position:absolute;left:0;top:-100px;width:100%;height:25px;text-align:center}
+.skip a:focus,#skip a:active{position:absolute;top:0;z-index:100;padding:10px 0;background:#000;font-weight:bold;color:#fff;font-size:20px;text-decoration:none}
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,table,th,td,form,fieldset,legend,textarea,input,select,textarea,button,article,aside,dialog,footer,header,section,footer,nav,figure,main{margin:0;padding:0}
+article,aside,dialog,footer,header,section,footer,nav,figure,main{display:block}
+html,body{height:100%}
+fieldset,li,img{border:0;vertical-align:top}
+dl,ul,ol,menu,li{list-style:none}
+blockquote,q{quotes:none}
+input,select,textarea,button{vertical-align:middle}
+body{background:#fff}
+body,input,select,textarea,button{font-family:NanumBarunGothic,'나눔바른고딕','Nanum BarunGothic','Malgun Gothic','맑은고딕','Apple SD Gothic Neo',Dotum,'돋움',sans-serif} /* 대표 font-family, font-size, color 지정 필요 */
+button{overflow:visible;border:0;background-color:transparent;cursor:pointer}
+button::-moz-focus-inner{padding:0;border:0}
+address,caption,em{font-style:normal}
+a,a:focus,a:active,a:hover{text-decoration:none}
+table{border-collapse:collapse;border-spacing:0}
+
+/* mobile reset 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,table,th,td,form,fieldset,legend,textarea,input,select,textarea,button,article,aside,dialog,footer,header,section,footer,nav,figure,main{margin:0;padding:0}
+article,aside,dialog,footer,header,section,footer,nav,figure,main{display:block}
+html,body{height:100%;-webkit-text-size-adjust:none;-ms-text-size-adjust:none}/* 뷰포트 변환시 폰트크기 자동확대 방지 
+body,input,select,textarea,button{font-family:NanumBarunGothic,'나눔바른고딕','Nanum BarunGothic','Malgun Gothic','맑은고딕','Apple SD Gothic Neo',Dotum,'돋움',sans-serif;font-size:12px;color:#333}
+fieldset,li,img{border:0;vertical-align:top}
+ul,ol{list-style:none}
+button{overflow:visible;border:0;background-color:transparent;cursor:pointer;outline:none}
+button::-moz-focus-inner{padding:0;border:0}
+address,caption,em{font-style:normal}
+button,.btn{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent}/* 디바이스 기본 터치 영역 제거 
+a,a:focus,a:active,a:hover{text-decoration:none}
+table{border-collapse:collapse;border-spacing:0}
+input[type=text],input[type=checkbox],input[type=password],button{border:0 none;-webkit-appearance:none;appearance:none;-webkit-text-size-adjust:none;-webkit-border-radius:0;border-radius:0}
+input:focus{outline:none}
+::-webkit-input-placeholder{color:#777}
+input:-moz-placeholder{color:#777}*/
+
+/* common */
+.blind,caption span,legend{overflow:hidden;position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;line-height:0;white-space:normal;word-wrap:break-word;word-break:break-all;clip:rect(0,0,0,0)}
+/*.blind{position:absolute;top:-99999px;width:1px;height:1px;font-size:1px;line-height:999px;white-space:nowrap}*/
+.sp{display:inline-block;overflow:hidden;background:url(../img/sp_common.png) no-repeat;line-height:9999px;vertical-align:top}
+
+/* main */
+.content{margin-bottom:50px}
+.cont_inner{position:relative;margin:0 auto;width:1110px;height:100%}
+
+/* header */
+.header{position:relative;height:485px;background:#f7695f}
+.logo{display:block;padding-top:420px;text-align:center}
+.logo_img{display:inline-block;width:202px;height:36px;background:url(../img/logo.gif) no-repeat;vertical-align:top}
+.nav{position:absolute;right:10px;top:8px}
+.menu_lst{font-size:0}
+.menu_item{display:inline-block;margin-left:20px;vertical-align:top}
+.menu_item:first-child{margin-left:0}
+.menu_link{display:block;padding:22px 15px;font-size:18px;color:#fff}
+.menu_link:hover{color:#f7695f;background:#fff;border-radius:5px}
+.profile_bx{position:absolute;left:50%;top:75px;margin-left:-160px}
+.profile_img{display:inline-block;width:320px;height:320px;border-radius:50%;background:pink;vertical-align:top;box-sizing:border-box}
+
+/* content */
+.sec{padding-top:40px}
+.h_tit{font-size:28px;color:#333;font-weight:normal}
+.timeline_wrap{margin-top:40px}
+.timeline_wrap,.timeline_inner{position:relative}
+.timeline_inner:after{display:block;clear:both;content:''}
+.timeline{position:relative;float:left;width:484px;min-height:112px;padding:0 100px 30px 0}
+.timeline.has_reverse{float:right;padding:0 0 30px 100px}
+.timeline_lst{margin-top:-3px}
+.timeline_tit{position:absolute;top:-12px;right:0;padding:12px 0 15px;font-size:24px;font-weight:normal;color:#2f2f46;text-align:center;background-color:#fff;z-index:10;}
+.tit_long{right:-54px}
+.point{color:#fa2828}
+.timeline.has_reverse .timeline_tit{right:auto;left:0;}
+.timeline_item{position:relative;padding:0 80px 0 0;font-size:14px;line-height:30px;text-align:right;white-space:nowrap;}
+.timeline_item a{text-decoration:underline}
+.timeline.has_reverse .timeline_item{padding:0 0 0 80px;text-align:left}
+.timeline_month{position:absolute;top:0;right:0;font-size:15px;font-weight:bold;line-height:31px;letter-spacing:-1px;color:#2f2f46}
+.timeline.has_reverse .timeline_month{right:auto;left:0}
+.timeline_wrap:after{position:absolute;top:48px;right:50%;bottom:0;width:1px;background-color:#eaeaec;content:''}
+.work_bx{margin-top:40px}
+.work_lst{margin-left:-5px}
+.work_item{float:left;margin:0 0 5px 5px;width:273px;height:273px}
+.work_link{position:relative;display:block;width:100%;height:100%;background-color:#eee;z-index:30}
+.work_link:before{position:absolute;left:0;top:0;right:0;bottom:0;border:1px solid #e5e5e5;content:''}
+.work_link:hover:before{border-color:#333}
+.project_img{display:block;height:100%;background-position:50% 50%;background-size:contain;background-repeat:no-repeat}
+.project_name_bx{display:none;position:absolute;left:1px;bottom:1px;right:1px;text-align:center;background:rgba(255,255,255,.9)}
+.work_link:hover .project_name_bx{display:block}
+.project_name_txt{display:block;height:60px;font-size:18px;color:#f7695f;font-weight:bold;text-align:center;line-height:60px}
+.work_lst:after{display:block;clear:both;content:''}
+
+/* footer */
+.footer{padding:23px 0;background:#f7695f}
+.my_info{margin-top:30px}
+.my_info dd{margin-top:10px;font-size:14px;color:#fff}
+.my_info dd:first-of-type{margin-top:0}
+.copyright{margin-top:20px;font-size:12px;color:#fff}
