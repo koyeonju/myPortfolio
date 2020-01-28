@@ -32,30 +32,12 @@ dl,ul,ol,menu,li{list-style:none}
 blockquote,q{quotes:none}
 input,select,textarea,button{vertical-align:middle}
 body{background:#fff}
-body,input,select,textarea,button{font-family:NanumBarunGothic,'나눔바른고딕','Nanum BarunGothic','Malgun Gothic','맑은고딕','Apple SD Gothic Neo',Dotum,'돋움',sans-serif} /* 대표 font-family, font-size, color 지정 필요 */
+body,input,select,textarea,button{font-family:NanumBarunGothic,'나눔바른고딕','Nanum BarunGothic','Malgun Gothic','맑은고딕','Apple SD Gothic Neo',Dotum,'돋움',sans-serif}
 button{overflow:visible;border:0;background-color:transparent;cursor:pointer}
 button::-moz-focus-inner{padding:0;border:0}
 address,caption,em{font-style:normal}
 a,a:focus,a:active,a:hover{text-decoration:none}
 table{border-collapse:collapse;border-spacing:0}
-
-/* mobile reset 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,table,th,td,form,fieldset,legend,textarea,input,select,textarea,button,article,aside,dialog,footer,header,section,footer,nav,figure,main{margin:0;padding:0}
-article,aside,dialog,footer,header,section,footer,nav,figure,main{display:block}
-html,body{height:100%;-webkit-text-size-adjust:none;-ms-text-size-adjust:none}/* 뷰포트 변환시 폰트크기 자동확대 방지 
-body,input,select,textarea,button{font-family:NanumBarunGothic,'나눔바른고딕','Nanum BarunGothic','Malgun Gothic','맑은고딕','Apple SD Gothic Neo',Dotum,'돋움',sans-serif;font-size:12px;color:#333}
-fieldset,li,img{border:0;vertical-align:top}
-ul,ol{list-style:none}
-button{overflow:visible;border:0;background-color:transparent;cursor:pointer;outline:none}
-button::-moz-focus-inner{padding:0;border:0}
-address,caption,em{font-style:normal}
-button,.btn{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent}/* 디바이스 기본 터치 영역 제거 
-a,a:focus,a:active,a:hover{text-decoration:none}
-table{border-collapse:collapse;border-spacing:0}
-input[type=text],input[type=checkbox],input[type=password],button{border:0 none;-webkit-appearance:none;appearance:none;-webkit-text-size-adjust:none;-webkit-border-radius:0;border-radius:0}
-input:focus{outline:none}
-::-webkit-input-placeholder{color:#777}
-input:-moz-placeholder{color:#777}*/
 
 /* common */
 .blind,caption span,legend{overflow:hidden;position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;line-height:0;white-space:normal;word-wrap:break-word;word-break:break-all;clip:rect(0,0,0,0)}
@@ -70,7 +52,7 @@ input:-moz-placeholder{color:#777}*/
 .header{position:relative;height:485px;background:#f7695f}
 .logo{display:block;padding-top:420px;text-align:center}
 .logo_img{display:inline-block;width:202px;height:36px;background:url(../img/logo.gif) no-repeat;vertical-align:top}
-.nav{position:absolute;right:10px;top:8px}
+.nav{position:absolute;right:10px;top:8px;z-index:10}
 .menu_lst{font-size:0}
 .menu_item{display:inline-block;margin-left:20px;vertical-align:top}
 .menu_item:first-child{margin-left:0}

@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"><!-- [D] 모바일인 경우 추가 -->
 <meta name="robots" content="all">
 <title>Portfolio : KOYEONJU</title>
 <link rel="stylesheet" type="text/css" href="css/portfolio.css">
@@ -22,9 +21,9 @@
 	<header id="header" class="header">
 		<nav id="nav" class="nav">
 			<ul class="menu_lst">
-			<li class="menu_item"><a href="#" class="menu_link">About</a></li>
-			<li class="menu_item"><a href="#" class="menu_link">Portfolio</a></li>
-			<li class="menu_item"><a href="#" class="menu_link">Contacts</a></li>
+			<li class="menu_item"><a href="#about" class="menu_link">About</a></li>
+			<li class="menu_item"><a href="#portfolio" class="menu_link">Portfolio</a></li>
+			<li class="menu_item"><a href="#contacts" class="menu_link">Contacts</a></li>
 			</ul>
 		</nav>
 		<div class="cont_inner">
@@ -40,14 +39,22 @@
 	<main id="content" class="content">
 		<section class="sec">
 			<div class="cont_inner">
-				<h2 class="h_tit">About</h2>
+				<h2 id="about" class="h_tit">About</h2>
 				<div class="timeline_wrap">
 					<div class="timeline_inner">
+						<div class="timeline has_reverse">
+							<h3 class="timeline_tit" aria-label="연도">2020</h3>
+							<ul class="timeline_lst">
+							<li class="timeline_item"><em class="timeline_month">현재</em> <a href="https://www.daum.net/" class="point" target="_blank">Daum</a> 운영 예정</li>
+							</ul>
+						</div>
 						<div class="timeline">
 							<h3 class="timeline_tit" aria-label="연도">2019</h3>
 							<ul class="timeline_lst">
 							<li class="timeline_item"><em class="timeline_month">1월</em> COPS 브랜드사이트 구축</li>
-							<li class="timeline_item"><em class="timeline_month">1월 말 ~ 현재</em> LINE+ 웹표준 운영 /<br> PAYCO 프로모션</li>
+							<li class="timeline_item"><em class="timeline_month">1월 말 ~ 3월</em> LINE+ 웹표준 운영 /<br> PAYCO 프로모션</li>
+							<li class="timeline_item"><em class="timeline_month">4월 ~ 8월</em> <a href="https://makers.kakao.com/" class="point" target="_blank">카카오 메이커스</a> 구축 및 운영</li>
+							<li class="timeline_item"><em class="timeline_month">9월 ~ 현재</em> 카카오페이 운영</li>
 							</ul>
 						</div>
 						<div class="timeline has_reverse">
@@ -55,14 +62,14 @@
 							<ul class="timeline_lst">
 							<li class="timeline_item"><em class="timeline_month">4월</em> 한게임 모바일 자동결제창 구축</li>
 							<li class="timeline_item"><em class="timeline_month">11월 ~ 12월</em> COPS 대회사이트 구축</li>
-							<li class="timeline_item"><em class="timeline_month">상시</em> <a href="https://booking.payco.com/" class="point" target="_blank">PAYCO Place</a> 운영 /<br> <a href="https://file.toast.com/" class="point" target="_blank">TOAST File</a> 운영</li>
+							<li class="timeline_item"><em class="timeline_month">상시</em> <a href="https://place-shop.iamservice.net/" class="point" target="_blank">PAYCO Place</a> 운영 /<br> <a href="https://file.toast.com/" class="point" target="_blank">TOAST File</a> 운영</li>
 							</ul>
 						</div>
 						<div class="timeline">
 							<h3 class="timeline_tit" aria-label="연도">2017</h3>
 							<ul class="timeline_lst">
 							<li class="timeline_item"><em class="timeline_month">6월 ~ 7월</em> PAYCO 쇼핑 구축</li>
-							<li class="timeline_item"><em class="timeline_month">9월 ~</em> <a href="https://booking.payco.com/" class="point" target="_blank">PAYCO Place</a> 구축</li>
+							<li class="timeline_item"><em class="timeline_month">9월 ~</em> <a href="https://place-shop.iamservice.net/" class="point" target="_blank">PAYCO Place</a> 구축</li>
 							<li class="timeline_item"><em class="timeline_month">10월</em> <a href="https://adlibr.com/" class="point" target="_blank">ADLIB</a> 구축</li>
 							<li class="timeline_item"><em class="timeline_month">상시</em> <a href="https://file.toast.com/" class="point" target="_blank">TOAST File</a> 운영 /<br>
 							<a href="https://www.hangame.com/" class="point" target="_blank">한게임</a> 운영 /<br> <a href="https://www.payco.com/" class="point" target="_blank">페이코</a> 서비스 구축 및 운영 다수</li>
@@ -98,7 +105,7 @@
 		</section>
 		<section class="sec">
 			<div class="cont_inner">
-				<h2 class="h_tit">Portfolio</h2>
+				<h2 id="portfolio" class="h_tit">Portfolio</h2>
 				<div class="work_bx">
 					<ul class="work_lst">
 					<li class="work_item">
@@ -183,7 +190,7 @@
 	<!--[D] FOOTER -->
 	<footer id="footer" class="footer">
 		<div class="cont_inner">
-			<h2 class="h_tit">Contacts</h2>
+			<h2 id="contacts" class="h_tit">Contacts</h2>
 			<div class="my_info">
 				<dl class="info_spec">
 				<dt class="blind">이메일</dt>
