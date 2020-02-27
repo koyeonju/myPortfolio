@@ -61,6 +61,8 @@ table{border-collapse:collapse;border-spacing:0}
 .menu_link:hover{color:#f7695f;background:#fff;border-radius:5px}
 .profile_bx{position:absolute;left:50%;top:75px;margin-left:-160px}
 .profile_img{display:inline-block;width:320px;height:320px;border-radius:50%;background:url(../img/visual_img.jpg) no-repeat;background-size:cover;vertical-align:top;box-sizing:border-box}
+/* 2020-02-28 */
+.menu_item:first-child{margin-left:0}
 
 /* content */
 .sec{padding-top:40px}
