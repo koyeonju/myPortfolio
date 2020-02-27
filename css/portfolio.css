@@ -92,6 +92,8 @@ table{border-collapse:collapse;border-spacing:0}
 .work_link:hover .project_name_bx{display:block}
 .project_name_txt{display:block;height:60px;font-size:18px;color:#f7695f;font-weight:bold;text-align:center;line-height:60px}
 .work_lst:after{display:block;clear:both;content:''}
+/* 2020-02-28 추가 */
+.point5{color:#000}
 
 /* footer */
 .footer{padding:23px 0;background:#f7695f}
