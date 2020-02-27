@@ -49,6 +49,12 @@ table{border-collapse:collapse;border-spacing:0}
 .content{margin-bottom:50px}
 .cont_inner{position:relative;margin:0 auto;width:1110px;height:100%}
 
+/* 2020-02-28 추가 시작 */
+.work_link:hover .project_name_bx{display:block}
+.project_name_txt{display:block;height:60px;font-size:18px;color:#f7695f;font-weight:bold;text-align:center;line-height:60px}
+.work_lst:after{display:block;clear:both;content:''}
+/* 2020-02-28 추가 끝 */
+
 /* header */
 .header{position:relative;height:485px;background:#f7695f}
 .logo{display:block;padding-top:420px;text-align:center}
